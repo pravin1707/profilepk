@@ -1,5 +1,5 @@
 import React from "react";
-import { cn } from "../../lib/cn";
+import { cn } from "../../Utils/cn";
 
 type SpotlightProps = {
   className?: string;
@@ -54,5 +54,3 @@ export const Spotlight = ({ className, fill }: SpotlightProps) => {
     </svg>
   );
 };
-
-export default Spotlight;
